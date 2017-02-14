@@ -1,0 +1,6 @@
+framework module PRTabWithBadgeAnimation {
+  umbrella header "PRTabWithBadgeAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PRTabWithBadgeAnimation (0.1.0)
+
+DEPENDENCIES:
+  - PRTabWithBadgeAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  PRTabWithBadgeAnimation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PRTabWithBadgeAnimation: c8a3b9a3e88fe8403176e7a8a7214771aa4ceaca
+
+PODFILE CHECKSUM: a02a03f7bf8f58962cce4bbbb4382ae1f0bf9353
+
+COCOAPODS: 1.2.0
