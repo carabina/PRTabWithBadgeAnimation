@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PRTabWithBadgeAnimation_Example' do
+  pod 'PRTabWithBadgeAnimation', :path => '../'
+
+  target 'PRTabWithBadgeAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
