@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FE9A612B217A33285033BEA5C49CE60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2137DA8A31E05DAFB4C818C211F74907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2DAA8B813B46EE82E740CF8D9B9632DB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE127900C9CA5489E766DB694FDA1A2 /* ReplaceMe.swift */; };
+		0E5F3D95B7DA65EA65BECB8604BEE826 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		0FE9A612B217A33285033BEA5C49CE60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		36D114215CA84CD1508EDFBF156ACA53 /* Pods-PRTabWithBadgeAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CE82F98E4BE12C613A4B20F57A450A /* Pods-PRTabWithBadgeAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40F2AF0BFE27839D8D712B13246EA138 /* PRTabWithBadgeAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36648E4847C4EC79D984686D9CAFDB48 /* PRTabWithBadgeAnimation-dummy.m */; };
+		4201C974A534129D49F09076F876DB67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		4A5C5E0820B868B0D3590E4F38118F85 /* Pods-PRTabWithBadgeAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B79DE59D05F2D8DD7ADDEA614BA8D6 /* Pods-PRTabWithBadgeAnimation_Tests-dummy.m */; };
 		5D7F9F66F65403826A6344727FD34053 /* Pods-PRTabWithBadgeAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D75C0B81976E03FD15A207A246BC52F4 /* Pods-PRTabWithBadgeAnimation_Example-dummy.m */; };
 		6EADF56DC3B66DBDD2931E1DD6E7A698 /* PRTabWithBadgeAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9C98EEF889C08EC0D56A65720E5326 /* PRTabWithBadgeAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7230DC23E31C0E3DA443274CEACFACDE /* Pods-PRTabWithBadgeAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B9833A3C69EE98F7B81EA644AF85EC /* Pods-PRTabWithBadgeAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC1E694CE386267D4D63CDC84DF32090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7546868186262123715ADBCE180F6009 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D769C37AECC392AB715561F07F2E02 /* MyView.swift */; };
+		AF08FEF4113426CCF097D4B90BA884EC /* MyTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC83C213E2B3DAD2FEAACC37B02D51 /* MyTabBarVC.swift */; };
+		CC1E694CE386267D4D63CDC84DF32090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E6981581D2A9E59E6CF2DBF6E8A5C85A /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DA1B582B99FE2AF9DD16B742415F2 /* UITabBarController.swift */; };
+		EFA8589082521EB9091EA837D315ADE5 /* PRTabWithBadgeAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36648E4847C4EC79D984686D9CAFDB48 /* PRTabWithBadgeAnimation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,21 +35,23 @@
 /* Begin PBXFileReference section */
 		04B79DE59D05F2D8DD7ADDEA614BA8D6 /* Pods-PRTabWithBadgeAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRTabWithBadgeAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		12C5102FA10EB6EBA6DF5BE0AEA0B3BE /* Pods-PRTabWithBadgeAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		279F5C74A0CE644BCBBBDF4FA3D267A7 /* Pods-PRTabWithBadgeAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PRTabWithBadgeAnimation_Tests.modulemap"; sourceTree = "<group>"; };
-		2B2374FAA20AEAE945C2D030C397B7AF /* Pods-PRTabWithBadgeAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PRTabWithBadgeAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		279F5C74A0CE644BCBBBDF4FA3D267A7 /* Pods-PRTabWithBadgeAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PRTabWithBadgeAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		2B2374FAA20AEAE945C2D030C397B7AF /* Pods-PRTabWithBadgeAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PRTabWithBadgeAnimation_Example.modulemap"; sourceTree = "<group>"; };
 		36648E4847C4EC79D984686D9CAFDB48 /* PRTabWithBadgeAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRTabWithBadgeAnimation-dummy.m"; sourceTree = "<group>"; };
 		382161CA696DBC271BFF9BC9CED4AAE6 /* Pods-PRTabWithBadgeAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRTabWithBadgeAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3936B6542C23CDE44BBEEFA24AF69A23 /* Pods-PRTabWithBadgeAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRTabWithBadgeAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FD64DA841AC1F733056F1A65B756306 /* Pods-PRTabWithBadgeAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		42746A4AE25988F23121FFB7F9D2CA81 /* Pods_PRTabWithBadgeAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRTabWithBadgeAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FC83C213E2B3DAD2FEAACC37B02D51 /* MyTabBarVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyTabBarVC.swift; sourceTree = "<group>"; };
+		42746A4AE25988F23121FFB7F9D2CA81 /* Pods_PRTabWithBadgeAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PRTabWithBadgeAnimation_Tests.framework; path = "Pods-PRTabWithBadgeAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CE82F98E4BE12C613A4B20F57A450A /* Pods-PRTabWithBadgeAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRTabWithBadgeAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A7516230738C5A88502333DA992828D /* Pods-PRTabWithBadgeAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5CE127900C9CA5489E766DB694FDA1A2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		64C9E53C9FF71DA267B375785C959240 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F7E50635519E17F9CB37ED8910B87D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ACD868C04D865190FA8C1963EDA3D27 /* Pods_PRTabWithBadgeAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRTabWithBadgeAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACD868C04D865190FA8C1963EDA3D27 /* Pods_PRTabWithBadgeAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PRTabWithBadgeAnimation_Example.framework; path = "Pods-PRTabWithBadgeAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		88740288BCDEF836B98FA09FEAAC5270 /* Pods-PRTabWithBadgeAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C73F3446C21551567DDBF5AD6A17769 /* PRTabWithBadgeAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRTabWithBadgeAnimation.xcconfig; sourceTree = "<group>"; };
 		ADD4ECCEAEE0269EDE22E6BDF2045DCA /* Pods-PRTabWithBadgeAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRTabWithBadgeAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AED3C827DB73D25F3B9A51422CEB8FA0 /* PRTabWithBadgeAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRTabWithBadgeAnimation-prefix.pch"; sourceTree = "<group>"; };
@@ -55,21 +60,23 @@
 		B3ABB4390AAAFC5A505AA4CDEDEF6556 /* Pods-PRTabWithBadgeAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAD62AA8FF51472624211B93226BD986 /* Pods-PRTabWithBadgeAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Example-resources.sh"; sourceTree = "<group>"; };
 		BC59C1E2C6C153979112FBD523BBA651 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD4A50C51EF6FAC3A77D42C1590A6F86 /* PRTabWithBadgeAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PRTabWithBadgeAnimation.modulemap; sourceTree = "<group>"; };
+		BD4A50C51EF6FAC3A77D42C1590A6F86 /* PRTabWithBadgeAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PRTabWithBadgeAnimation.modulemap; sourceTree = "<group>"; };
 		BF9C98EEF889C08EC0D56A65720E5326 /* PRTabWithBadgeAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRTabWithBadgeAnimation-umbrella.h"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D11E40FC705FC82E5FB1B8D91C8B12D1 /* Pods-PRTabWithBadgeAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D75C0B81976E03FD15A207A246BC52F4 /* Pods-PRTabWithBadgeAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRTabWithBadgeAnimation_Example-dummy.m"; sourceTree = "<group>"; };
-		F53CF555880C3B77100403777F5E549A /* PRTabWithBadgeAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PRTabWithBadgeAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7DA1B582B99FE2AF9DD16B742415F2 /* UITabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
+		F2D769C37AECC392AB715561F07F2E02 /* MyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		F53CF555880C3B77100403777F5E549A /* PRTabWithBadgeAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PRTabWithBadgeAnimation.framework; path = PRTabWithBadgeAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE85EC0F6860E6B496810AE13527517C /* Pods-PRTabWithBadgeAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77B8034CF6E8A274E97A5EA4A908A08A /* Frameworks */ = {
+		59690E92F09472A639A32E1B3D5EA0B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2137DA8A31E05DAFB4C818C211F74907 /* Foundation.framework in Frameworks */,
+				4201C974A534129D49F09076F876DB67 /* Foundation.framework in Frameworks */,
+				0E5F3D95B7DA65EA65BECB8604BEE826 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,14 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15E99A7E7BFBEC57BC8EC138EF013922 /* PRTabWithBadgeAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				37ECA49B3996763951B5F632D31A9002 /* Classes */,
-			);
-			path = PRTabWithBadgeAnimation;
-			sourceTree = "<group>";
-		};
 		1B6AE3EDE2C9A78728963D2ACA510E9F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +111,7 @@
 		20D6B1320FDEF5676B7C27DCD84D0292 /* PRTabWithBadgeAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				15E99A7E7BFBEC57BC8EC138EF013922 /* PRTabWithBadgeAnimation */,
+				9CB98DD4BAA63BB00FEAD5192E2033AE /* PRTabWithBadgeAnimation */,
 				26C32377162CE18D10BDCA91604E8E6B /* Support Files */,
 			);
 			name = PRTabWithBadgeAnimation;
@@ -151,12 +150,12 @@
 			path = "Example/Pods/Target Support Files/PRTabWithBadgeAnimation";
 			sourceTree = "<group>";
 		};
-		37ECA49B3996763951B5F632D31A9002 /* Classes */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5CE127900C9CA5489E766DB694FDA1A2 /* ReplaceMe.swift */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4D0128776CCB5CBDFC5D9DD127C59E7B /* Products */ = {
@@ -167,14 +166,6 @@
 				F53CF555880C3B77100403777F5E549A /* PRTabWithBadgeAnimation.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7CBE19BCE06374F70B00D7793F9490FE /* Pods-PRTabWithBadgeAnimation_Example */ = {
@@ -200,7 +191,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8F1378DBFAEC7EB8725A54A6A461A5B4 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				4D0128776CCB5CBDFC5D9DD127C59E7B /* Products */,
 				1B6AE3EDE2C9A78728963D2ACA510E9F /* Targets Support Files */,
 			);
@@ -214,12 +205,33 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9CB98DD4BAA63BB00FEAD5192E2033AE /* PRTabWithBadgeAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				F4EA9DFD80114A884406968ACB33974A /* Classes */,
 			);
-			name = Frameworks;
+			name = PRTabWithBadgeAnimation;
+			path = PRTabWithBadgeAnimation;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4EA9DFD80114A884406968ACB33974A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41FC83C213E2B3DAD2FEAACC37B02D51 /* MyTabBarVC.swift */,
+				F2D769C37AECC392AB715561F07F2E02 /* MyView.swift */,
+				DA7DA1B582B99FE2AF9DD16B742415F2 /* UITabBarController.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,8 +303,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5EE4369F2713422DA68E4FBDFB08B23 /* Build configuration list for PBXNativeTarget "PRTabWithBadgeAnimation" */;
 			buildPhases = (
-				529D9B9ADE163A713F2A0A3340BC9F6E /* Sources */,
-				77B8034CF6E8A274E97A5EA4A908A08A /* Frameworks */,
+				3DEB45AB54FE99339B627A3CF318FBE2 /* Sources */,
+				59690E92F09472A639A32E1B3D5EA0B2 /* Frameworks */,
 				D27B01B3DA3F491D2D07A9DFD4FA994B /* Headers */,
 			);
 			buildRules = (
@@ -312,14 +324,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					B9D818508878C91ACA1BA425FBDC1078 = {
-						LastSwiftMigration = 0820;
-					};
-					C7D4B2C9189D7A88C857E3BBFC40198D = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,12 +345,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		529D9B9ADE163A713F2A0A3340BC9F6E /* Sources */ = {
+		3DEB45AB54FE99339B627A3CF318FBE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F2AF0BFE27839D8D712B13246EA138 /* PRTabWithBadgeAnimation-dummy.m in Sources */,
-				2DAA8B813B46EE82E740CF8D9B9632DB /* ReplaceMe.swift in Sources */,
+				AF08FEF4113426CCF097D4B90BA884EC /* MyTabBarVC.swift in Sources */,
+				7546868186262123715ADBCE180F6009 /* MyView.swift in Sources */,
+				EFA8589082521EB9091EA837D315ADE5 /* PRTabWithBadgeAnimation-dummy.m in Sources */,
+				E6981581D2A9E59E6CF2DBF6E8A5C85A /* UITabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +384,71 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		021449381C1848DD64CEED9C1EE8C92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C73F3446C21551567DDBF5AD6A17769 /* PRTabWithBadgeAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRTabWithBadgeAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PRTabWithBadgeAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1ED6183326CB9854219FAB9125864FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C73F3446C21551567DDBF5AD6A17769 /* PRTabWithBadgeAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRTabWithBadgeAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PRTabWithBadgeAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		35321DC97A3EC984CE2F6E35DAA4F3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3ABB4390AAAFC5A505AA4CDEDEF6556 /* Pods-PRTabWithBadgeAnimation_Tests.release.xcconfig */;
@@ -442,7 +513,6 @@
 				PRODUCT_NAME = Pods_PRTabWithBadgeAnimation_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -598,72 +668,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF41B24E41269BBF23CBE335C8D1E09C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C73F3446C21551567DDBF5AD6A17769 /* PRTabWithBadgeAnimation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRTabWithBadgeAnimation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PRTabWithBadgeAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E693E018EE898164E8FB4108EEAF82A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C73F3446C21551567DDBF5AD6A17769 /* PRTabWithBadgeAnimation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRTabWithBadgeAnimation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRTabWithBadgeAnimation/PRTabWithBadgeAnimation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PRTabWithBadgeAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -703,8 +707,8 @@
 		D5EE4369F2713422DA68E4FBDFB08B23 /* Build configuration list for PBXNativeTarget "PRTabWithBadgeAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E693E018EE898164E8FB4108EEAF82A8 /* Debug */,
-				CF41B24E41269BBF23CBE335C8D1E09C /* Release */,
+				1ED6183326CB9854219FAB9125864FB5 /* Debug */,
+				021449381C1848DD64CEED9C1EE8C92A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
