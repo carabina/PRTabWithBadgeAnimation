@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class MyTabBarVC: UITabBarController {
+public class PRTabBarController: UITabBarController {
 
     // Xcode 7 & 8
     

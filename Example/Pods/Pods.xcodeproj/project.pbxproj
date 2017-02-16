@@ -15,8 +15,7 @@
 		5D7F9F66F65403826A6344727FD34053 /* Pods-PRTabWithBadgeAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D75C0B81976E03FD15A207A246BC52F4 /* Pods-PRTabWithBadgeAnimation_Example-dummy.m */; };
 		6EADF56DC3B66DBDD2931E1DD6E7A698 /* PRTabWithBadgeAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9C98EEF889C08EC0D56A65720E5326 /* PRTabWithBadgeAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7230DC23E31C0E3DA443274CEACFACDE /* Pods-PRTabWithBadgeAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B9833A3C69EE98F7B81EA644AF85EC /* Pods-PRTabWithBadgeAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7546868186262123715ADBCE180F6009 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D769C37AECC392AB715561F07F2E02 /* MyView.swift */; };
-		AF08FEF4113426CCF097D4B90BA884EC /* MyTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC83C213E2B3DAD2FEAACC37B02D51 /* MyTabBarVC.swift */; };
+		AF08FEF4113426CCF097D4B90BA884EC /* PRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC83C213E2B3DAD2FEAACC37B02D51 /* PRTabBarController.swift */; };
 		CC1E694CE386267D4D63CDC84DF32090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		E6981581D2A9E59E6CF2DBF6E8A5C85A /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DA1B582B99FE2AF9DD16B742415F2 /* UITabBarController.swift */; };
 		EFA8589082521EB9091EA837D315ADE5 /* PRTabWithBadgeAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36648E4847C4EC79D984686D9CAFDB48 /* PRTabWithBadgeAnimation-dummy.m */; };
@@ -35,23 +34,23 @@
 /* Begin PBXFileReference section */
 		04B79DE59D05F2D8DD7ADDEA614BA8D6 /* Pods-PRTabWithBadgeAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRTabWithBadgeAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		12C5102FA10EB6EBA6DF5BE0AEA0B3BE /* Pods-PRTabWithBadgeAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		279F5C74A0CE644BCBBBDF4FA3D267A7 /* Pods-PRTabWithBadgeAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PRTabWithBadgeAnimation_Tests.modulemap"; sourceTree = "<group>"; };
-		2B2374FAA20AEAE945C2D030C397B7AF /* Pods-PRTabWithBadgeAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PRTabWithBadgeAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		279F5C74A0CE644BCBBBDF4FA3D267A7 /* Pods-PRTabWithBadgeAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PRTabWithBadgeAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		2B2374FAA20AEAE945C2D030C397B7AF /* Pods-PRTabWithBadgeAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PRTabWithBadgeAnimation_Example.modulemap"; sourceTree = "<group>"; };
 		36648E4847C4EC79D984686D9CAFDB48 /* PRTabWithBadgeAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRTabWithBadgeAnimation-dummy.m"; sourceTree = "<group>"; };
 		382161CA696DBC271BFF9BC9CED4AAE6 /* Pods-PRTabWithBadgeAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRTabWithBadgeAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3936B6542C23CDE44BBEEFA24AF69A23 /* Pods-PRTabWithBadgeAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRTabWithBadgeAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FD64DA841AC1F733056F1A65B756306 /* Pods-PRTabWithBadgeAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		41FC83C213E2B3DAD2FEAACC37B02D51 /* MyTabBarVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyTabBarVC.swift; sourceTree = "<group>"; };
-		42746A4AE25988F23121FFB7F9D2CA81 /* Pods_PRTabWithBadgeAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PRTabWithBadgeAnimation_Tests.framework; path = "Pods-PRTabWithBadgeAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FC83C213E2B3DAD2FEAACC37B02D51 /* PRTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PRTabBarController.swift; sourceTree = "<group>"; };
+		42746A4AE25988F23121FFB7F9D2CA81 /* Pods_PRTabWithBadgeAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRTabWithBadgeAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CE82F98E4BE12C613A4B20F57A450A /* Pods-PRTabWithBadgeAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRTabWithBadgeAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A7516230738C5A88502333DA992828D /* Pods-PRTabWithBadgeAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		64C9E53C9FF71DA267B375785C959240 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F7E50635519E17F9CB37ED8910B87D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ACD868C04D865190FA8C1963EDA3D27 /* Pods_PRTabWithBadgeAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PRTabWithBadgeAnimation_Example.framework; path = "Pods-PRTabWithBadgeAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACD868C04D865190FA8C1963EDA3D27 /* Pods_PRTabWithBadgeAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRTabWithBadgeAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		88740288BCDEF836B98FA09FEAAC5270 /* Pods-PRTabWithBadgeAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C73F3446C21551567DDBF5AD6A17769 /* PRTabWithBadgeAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRTabWithBadgeAnimation.xcconfig; sourceTree = "<group>"; };
 		ADD4ECCEAEE0269EDE22E6BDF2045DCA /* Pods-PRTabWithBadgeAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRTabWithBadgeAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AED3C827DB73D25F3B9A51422CEB8FA0 /* PRTabWithBadgeAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRTabWithBadgeAnimation-prefix.pch"; sourceTree = "<group>"; };
@@ -60,13 +59,12 @@
 		B3ABB4390AAAFC5A505AA4CDEDEF6556 /* Pods-PRTabWithBadgeAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAD62AA8FF51472624211B93226BD986 /* Pods-PRTabWithBadgeAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Example-resources.sh"; sourceTree = "<group>"; };
 		BC59C1E2C6C153979112FBD523BBA651 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD4A50C51EF6FAC3A77D42C1590A6F86 /* PRTabWithBadgeAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PRTabWithBadgeAnimation.modulemap; sourceTree = "<group>"; };
+		BD4A50C51EF6FAC3A77D42C1590A6F86 /* PRTabWithBadgeAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PRTabWithBadgeAnimation.modulemap; sourceTree = "<group>"; };
 		BF9C98EEF889C08EC0D56A65720E5326 /* PRTabWithBadgeAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRTabWithBadgeAnimation-umbrella.h"; sourceTree = "<group>"; };
 		D11E40FC705FC82E5FB1B8D91C8B12D1 /* Pods-PRTabWithBadgeAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRTabWithBadgeAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D75C0B81976E03FD15A207A246BC52F4 /* Pods-PRTabWithBadgeAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRTabWithBadgeAnimation_Example-dummy.m"; sourceTree = "<group>"; };
 		DA7DA1B582B99FE2AF9DD16B742415F2 /* UITabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
-		F2D769C37AECC392AB715561F07F2E02 /* MyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
-		F53CF555880C3B77100403777F5E549A /* PRTabWithBadgeAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PRTabWithBadgeAnimation.framework; path = PRTabWithBadgeAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53CF555880C3B77100403777F5E549A /* PRTabWithBadgeAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PRTabWithBadgeAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE85EC0F6860E6B496810AE13527517C /* Pods-PRTabWithBadgeAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRTabWithBadgeAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,7 +208,6 @@
 			children = (
 				F4EA9DFD80114A884406968ACB33974A /* Classes */,
 			);
-			name = PRTabWithBadgeAnimation;
 			path = PRTabWithBadgeAnimation;
 			sourceTree = "<group>";
 		};
@@ -226,11 +223,9 @@
 		F4EA9DFD80114A884406968ACB33974A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				41FC83C213E2B3DAD2FEAACC37B02D51 /* MyTabBarVC.swift */,
-				F2D769C37AECC392AB715561F07F2E02 /* MyView.swift */,
+				41FC83C213E2B3DAD2FEAACC37B02D51 /* PRTabBarController.swift */,
 				DA7DA1B582B99FE2AF9DD16B742415F2 /* UITabBarController.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -349,8 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF08FEF4113426CCF097D4B90BA884EC /* MyTabBarVC.swift in Sources */,
-				7546868186262123715ADBCE180F6009 /* MyView.swift in Sources */,
+				AF08FEF4113426CCF097D4B90BA884EC /* PRTabBarController.swift in Sources */,
 				EFA8589082521EB9091EA837D315ADE5 /* PRTabWithBadgeAnimation-dummy.m in Sources */,
 				E6981581D2A9E59E6CF2DBF6E8A5C85A /* UITabBarController.swift in Sources */,
 			);
